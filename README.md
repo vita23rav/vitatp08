@@ -153,3 +153,28 @@ CharacterManager/
 
     Link Google Docs Analisis GUI & MVC TP8:                                                                                     [https://docs.google.com/document/d/1xaVNnBSSAwupSRytRFSCggkXEiObcNUqvgPgy6Qzllo/edit?usp=sharing]
 
+
+## TP10 — Theming, Properti Komponen & Analisis MVC
+
+1. Screenshot Sebelum dan Sesudah
+
+   **Sebelum (v0.3)**
+
+   ![Screenshot sebelum TP10](Screenshot/sebelumtp10.png)
+
+   **Sesudah (v0.4)**
+
+   ![Screenshot sesudah TP10](Screenshot/sesudahtp10.png)
+
+2. Pemisahan Warna pada AppTheme dan Character
+   Warna tampilan aplikasi disimpan di kelas `AppTheme` yang berada pada package `view` agar pengaturan visual terpusat dan     konsisten. Kelas `Character` pada package `model` bertanggung jawab menyimpan data karakter, seperti nama, role, level,      HP, dan Attack, bukan mengatur warna tampilannya. Pemisahan ini membuat perubahan tema tidak mengharuskan perubahan pada     model karakter. Pendekatan tersebut juga mendukung pola MVC dan mempermudah pemeliharaan aplikasi.
+
+3. Dua Properti Tambahan
+
+   **Tooltip HP/Attack:** menampilkan informasi HP dan Attack ketika kursor diarahkan ke kartu karakter. Tujuannya agar         pengguna dapat melihat detail karakter dengan mudah tanpa memenuhi tampilan kartu.
+   **Border berdasarkan role:** garis tepi kartu mengikuti warna role karakter. Tujuannya agar perbedaan role lebih mudah       dikenali dan tampilan antarkartu lebih konsisten.
+
+4. Google Docs Bagian D
+
+   **Tautan analisis:** [https://docs.google.com/document/d/1MfQJ8VF39tAgRKz8frrUosh0cDtyTOBKGv4JTDBQ_AA/edit?usp=sharing]
+
