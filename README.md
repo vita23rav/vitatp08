@@ -27,7 +27,6 @@ CharacterManager/
 ├── screenshots/
 │   └── output-terminal.png
 ├── Screenshot/
-│   ├── output-character-basic.png
 │   ├── output-crud.png
 │   └── output-reference.png
 └── README.md
