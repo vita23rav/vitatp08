@@ -11,25 +11,31 @@
 
 5. Struktur Folder Project
 ```text
+
 CharacterManager/
 ├── out/
-│   ├── com/
 │   └── Main.class
-├── src/
-│   ├── com/
-│   │   └── unpri/
-│   │       └── charactermanager/
-│   │           ├── CharacterManager.java
-│   │           └── model/
-│   │               ├── Character.java
-│   │               └── CharacterType.java
-│   └── Main.java
-├── screenshots/
-│   └── output-terminal.png
 ├── Screenshot/
-│   ├── output-crud.png
-│   └── output-reference.png
+│   ├── Screenshots output-crud tp05.png
+│   ├── Screenshots output-reference tp05.png
+│   ├── Screenshots output-terminal.png
+│   ├── Screenshots sebelum tp08.png
+│   └── Screenshots sesudah tp08.png
+├── src/
+│   ├── Main.java
+│   └── com/
+│       └── unpri/
+│           └── charactermanager/
+│               ├── CharacterManager.java
+│               ├── controller/
+│               │   └── CharacterController.java
+│               ├── model/
+│               │   ├── Character.java
+│               │   └── CharacterType.java
+│               └── view/
+│                   └── MainWindow.java
 └── README.md
+
 ```
 4. Informasi Mahasiswa
    
