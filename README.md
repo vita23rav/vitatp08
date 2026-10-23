@@ -20,7 +20,9 @@ CharacterManager/
 │   ├── Screenshots output-reference tp05.png
 │   ├── Screenshots output-terminal.png
 │   ├── Screenshots sebelum tp08.png
-│   └── Screenshots sesudah tp08.png
+│   ├── Screenshots sebelum tp10.png
+│   ├── Screenshots sesudah tp08.png
+│   └── Screenshots sesudah tp10.png
 ├── src/
 │   ├── Main.java
 │   └── com/
@@ -33,8 +35,10 @@ CharacterManager/
 │               │   ├── Character.java
 │               │   └── CharacterType.java
 │               └── view/
+│                   ├── AppTheme.java
 │                   └── MainWindow.java
 └── README.md
+
 
 ```
 4. Informasi Mahasiswa
@@ -154,7 +158,10 @@ CharacterManager/
     Link Google Docs Analisis GUI & MVC TP8:                                                                                     [https://docs.google.com/document/d/1xaVNnBSSAwupSRytRFSCggkXEiObcNUqvgPgy6Qzllo/edit?usp=sharing]
 
 
-## TP10 — Theming, Properti Komponen & Analisis MVC
+---
+
+
+# TP10 — Theming, Properti Komponen & Analisis MVC
 
 1. Screenshot Sebelum dan Sesudah
 
